@@ -7,6 +7,7 @@
  */
 Ext.define('Subcontractors.view.main.Main', {
     extend: 'Ext.tab.Panel',
+    
     xtype: 'app-main',
 
     requires: [
