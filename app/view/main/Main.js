@@ -7,13 +7,13 @@
  */
 Ext.define('Subcontractors.view.main.Main', {
     extend: 'Ext.tab.Panel',
-    
+
     xtype: 'app-main',
 
     requires: [
         'Subcontractors.view.main.MainController',
         'Subcontractors.view.main.MainModel',
-        'Subcontractors.view.main.ContractsList'
+        'Subcontractors.view.main.MainTree'
     ],
 
     controller: 'main',
@@ -31,9 +31,9 @@ Ext.define('Subcontractors.view.main.Main', {
     items: [
         {
             title: 'Subcontractors dashboard',
-            layout: 'vbox',
+            layout: 'fit',
             items: [{
-                xtype: 'contractlist'
+                xtype: 'maintree'
             }]
         }
     ]

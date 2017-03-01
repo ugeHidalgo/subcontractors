@@ -538,10 +538,12 @@ $include-ext-viewport-windowsphone: dynamic(true);;
 $include-subcontractors-application: dynamic(true);;
 $include-subcontractors-store-contracts: dynamic(true);;
 $include-subcontractors-store-orders: dynamic(true);;
+$include-subcontractors-store-projects: dynamic(true);;
 $include-subcontractors-view-main-contractslist: dynamic(true);;
 $include-subcontractors-view-main-main: dynamic(true);;
 $include-subcontractors-view-main-maincontroller: dynamic(true);;
 $include-subcontractors-view-main-mainmodel: dynamic(true);;
+$include-subcontractors-view-main-maintree: dynamic(true);;
 $output-paths: ("path": "../resources");
 
 /* ======================== ETC ======================== */
