@@ -15,19 +15,19 @@ This folder contains misc. support code for Sass builds (global functions, etc.)
 
 This folder contains Sass files defining CSS rules corresponding to classes
 included in the application's JavaScript code build. By default, files in this 
-folder are mapped to the application's root namespace, 'Subcontractors'. This is set in
+folder are mapped to the application's root namespace, 'subcontractors'. This is set in
 `"app.json"`:
 
     "sass": {
-        "namespace": "Subcontractors"
+        "namespace": "subcontractors"
     }
 
 ### ./sass/var
 
 This folder contains Sass files defining Sass variables corresponding to classes
 included in the application's JavaScript code build. By default, files in this 
-folder are mapped to the application's root namespace, 'Subcontractors' in the same way
-as `"Subcontractors/sass/src"`.
+folder are mapped to the application's root namespace, 'subcontractors' in the same way
+as `"subcontractors/sass/src"`.
 
 ## Slicing
 

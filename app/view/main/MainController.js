@@ -4,12 +4,18 @@
  *
  * TODO - Replace this content of this view to suite the needs of your application.
  */
-Ext.define('Subcontractors.view.main.MainController', {
+Ext.define('subcontractors.view.main.MainController', {
     extend: 'Ext.app.ViewController',
 
     alias: 'controller.main',
 
     onItemSelected: function (sender, record) {
-        
+        Ext.Msg.confirm('Confirm', 'Are you sure?', 'onConfirm', this);
+    },
+
+    onConfirm: function (choice) {
+        if (choice === 'yes') {
+            //
+        }
     }
 });
