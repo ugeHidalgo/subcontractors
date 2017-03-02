@@ -12,10 +12,10 @@ Ext.define('subcontractors.view.main.Main', {
     requires: [
         'Ext.plugin.Viewport',
         'Ext.window.MessageBox',
-
         'subcontractors.view.main.MainController',
         'subcontractors.view.main.MainModel',
-        'subcontractors.view.main.List'
+        'subcontractors.view.main.List',
+        'subcontractors.view.main.Tree'
     ],
 
     controller: 'main',
@@ -81,6 +81,8 @@ Ext.define('subcontractors.view.main.Main', {
         // The following grid shares a store with the classic version's grid as well!
         items: [{
             xtype: 'mainlist'
+        }, {
+            xtype: 'maintree'
         }]
     }, {
         title: 'Users',
