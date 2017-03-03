@@ -1,7 +1,7 @@
-Ext.define('subcontractors.store.Personnel', {
+Ext.define('subcontractors.store.Suppliers', {
     extend: 'Ext.data.Store',
 
-    alias: 'store.personnel',
+    alias: 'store.suppliers',
 
     fields: [
         'name', 'email', 'phone'

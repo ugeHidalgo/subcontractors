@@ -6,13 +6,13 @@ Ext.define('subcontractors.view.main.List', {
     xtype: 'mainlist',
 
     requires: [
-        'subcontractors.store.Personnel'
+        'subcontractors.store.Suppliers'
     ],
 
-    title: 'Personnel',
+    title: 'Suppliers',
 
     store: {
-        type: 'personnel'
+        type: 'suppliers'
     },
 
     columns: [
